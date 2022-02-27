@@ -12,13 +12,16 @@ const Icon = (props: { url: string }) => (
 
 export default function Social({ className }: { className?: string }) {
   return (
-    <section className={cx('bg-white flex items-center', className)}>
-      <div className="flex justify-center flex-grow space-x-8 md:space-x-12">
-        <Icon url="https://www.linkedin.com/in/scottschmalz" />
-        <Icon url="https://github.com/schmalzs" />
-        <Icon url="https://gitlab.com/schmalzs" />
-        <Icon url="https://twitter.com/scottschmalz" />
-      </div>
+    <section
+      className={cx(
+        'flex items-center justify-center flex-grow space-x-8 md:space-x-12',
+        className
+      )}
+    >
+      <Icon url="https://www.linkedin.com/in/scottschmalz" />
+      <Icon url="https://github.com/schmalzs" />
+      <Icon url="https://gitlab.com/schmalzs" />
+      <Icon url="https://twitter.com/scottschmalz" />
     </section>
   );
 }
