@@ -49,7 +49,7 @@ export default function App() {
       </head>
       <body className="flex flex-col min-h-screen bg-white">
         <Header />
-        <main className="flex-grow">
+        <main className="flex-grow flex flex-col">
           <Outlet />
         </main>
         <Footer />

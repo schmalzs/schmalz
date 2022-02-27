@@ -1,9 +1,11 @@
 import Hero from '~/components/Hero';
+import Social from '~/components/Social';
 
 export default function Index() {
   return (
-    <div>
+    <>
       <Hero />
-    </div>
+      <Social className="flex-grow" />
+    </>
   );
 }
