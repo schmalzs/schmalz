@@ -8,6 +8,8 @@ import {
 } from 'remix';
 import type { LinksFunction, MetaFunction } from 'remix';
 import styles from './tailwind.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 export const links: LinksFunction = () => [
   { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
@@ -45,8 +47,12 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body>
-        <Outlet />
+      <body className="flex flex-col min-h-screen bg-white">
+        <Header />
+        <main className="flex-grow">
+          <Outlet />
+        </main>
+        <Footer />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
