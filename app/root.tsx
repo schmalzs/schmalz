@@ -7,7 +7,7 @@ import {
   ScrollRestoration,
 } from 'remix';
 import type { LinksFunction, MetaFunction } from 'remix';
-import styles from './tailwind.css';
+import tailwind from './tailwind.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
 
@@ -31,7 +31,7 @@ export const links: LinksFunction = () => [
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:400,700',
   },
-  { rel: 'stylesheet', href: styles },
+  { rel: 'stylesheet', href: tailwind },
 ];
 
 export const meta: MetaFunction = () => {
@@ -47,7 +47,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="flex flex-col min-h-screen bg-white">
+      <body className="flex flex-col bg-white">
         <Header />
         <main className="flex-grow flex flex-col">
           <Outlet />
