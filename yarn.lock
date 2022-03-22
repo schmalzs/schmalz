@@ -2989,9 +2989,10 @@ react-router@6.2.1:
   dependencies:
     history "^5.2.0"
 
-"react-social-icons@git://github.com/schmalzs/react-social-icons.git":
+react-social-icons@^5.12.0:
   version "5.12.0"
-  resolved "git://github.com/schmalzs/react-social-icons.git#e2c1fc331da3dc4384822a2061f3e892c8876772"
+  resolved "https://registry.yarnpkg.com/react-social-icons/-/react-social-icons-5.12.0.tgz#c16a00efa6b0f6e2bccce7fa5c27b83fb59aedfb"
+  integrity sha512-/LJUMCfpXc0K5OmWhZXoGYxQ/DVmrEeYfBmMONAsNeO5au4i3luV5BwLIH9UU/2tOQ2VR/T6Lc1hbLxdostXVA==
   dependencies:
     prop-types "^15.7.2"
 

@@ -17,7 +17,7 @@
     "classnames": "^2.3.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-social-icons": "git://github.com/schmalzs/react-social-icons.git",
+    "react-social-icons": "^5.12.0",
     "remix": "^1.2.2"
   },
   "devDependencies": {
