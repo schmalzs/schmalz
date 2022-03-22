@@ -27,7 +27,7 @@ export default function Hero() {
         </div>
         <div className="flex justify-center items-center">
           <a
-            className="bg-yellow text-gray px-12 font-bold py-2 rounded cursor-pointer hover:-translate-y-2 duration-200"
+            className="bg-yellow px-12 font-bold py-2 rounded cursor-pointer hover:-translate-y-2 duration-200"
             target="_blank"
             rel="noopener noreferrer"
             href="https://drive.google.com/file/d/1r7UCRwielQYZkGWq1dKxBqMrt3JTT6uF/view?usp=sharing"

@@ -47,7 +47,7 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="flex flex-col bg-white">
+      <body className="flex flex-col bg-white text-gray">
         <Header />
         <main className="flex-grow flex flex-col">
           <Outlet />
